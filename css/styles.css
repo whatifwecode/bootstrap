@@ -5,6 +5,7 @@
 
 #features {
   padding: 100px;
+  margin: 0 auto;
 }
 
 body {
@@ -52,4 +53,9 @@ h1 {
 
 .button-download {
   margin: 5% 3% 5% 0;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 60px;
 }
