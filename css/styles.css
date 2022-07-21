@@ -4,8 +4,21 @@
 }
 
 #features {
-  padding: 100px;
+  padding: 7% 15%;
   margin: 0 auto;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 body {
@@ -57,5 +70,45 @@ h1 {
 
 .features-icon {
   color: #ef8172;
-  font-size: 60px;
+  font-size: 65px;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-row {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-subtitle {
+  color: #8f8f8f;
+}
+
+.testimonials-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
