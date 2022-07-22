@@ -197,8 +197,8 @@
       <h2>A Plan for Every Dog's Needs</h2>
       <p>Simple and affordable price plans for your and your dog.</p>
 
-      <div class="row">
-        <div class="col-lg-4 col-md-2">
+      <div class="row pricing-row">
+        <div class="pricing-column col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
               <h3>Chihuahua</h3>
@@ -208,12 +208,17 @@
               <p>5 Matches Per Day</p>
               <p>10 Messages Per Day</p>
               <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
+              <button
+                type="button"
+                class="btn btn-lg btn-block btn-outline-dark"
+              >
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-2">
+        <div class="pricing-column col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
               <h3>Labrador</h3>
@@ -223,12 +228,14 @@
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
+              <button type="button" class="btn btn-lg btn-block btn-dark">
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md">
+        <div class="pricing-column col-lg-4">
           <div class="card">
             <div class="card-header">
               <h3>Mastiff</h3>
@@ -239,7 +246,9 @@
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
+              <button type="button" class="btn btn-lg btn-block btn-dark">
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
@@ -249,12 +258,27 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 class="cta-text">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg button-download">
+        <i class="fa fa-apple"></i>Download
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-light btn-lg button-download"
+      >
+        <i class="fa fa-google"></i>
+        Download
+      </button>
     </section>
 
     <!-- Footer -->
+
+    <div class="row social-icons">
+      <div class="col-3"><i class="fa fa-twitter"></i></div>
+      <div class="col-3"><i class="fa fa-facebook"></i></div>
+      <div class="col-3"><i class="fa fa-instagram"></i></div>
+      <div class="col-3"><i class="fa fa-envelope"></i></div>
+    </div>
 
     <footer id="footer">
       <p>© Copyright TinDog</p>
