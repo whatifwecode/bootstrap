@@ -35,6 +35,12 @@
   text-align: center;
 }
 
+#footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -150,6 +156,11 @@ p {
 
 .social-icons {
   text-align: center;
+  padding-top: 100px;
+}
+
+.icon {
+  padding: 10px;
 }
 
 @media (max-width: 991px) {
